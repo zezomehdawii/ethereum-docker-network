@@ -1,4 +1,4 @@
-FROM ethereum/client-go:development
+FROM ethereum/client-go:latest
 
 RUN apk add --update git bash nodejs nodejs-npm perl
 
